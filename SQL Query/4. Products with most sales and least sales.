@@ -1,0 +1,26 @@
+--- product with most sales
+select p.productCode, p.productName , sum(amount) as total_sales
+from products p
+join 
+orderdetails o on p.productCode=o.productCode
+join
+orders oo on oo.orderNumber=o.orderNumber
+join
+payments pp on pp.customerNumber=oo.customerNumber
+group by 1,2
+order by 3 desc
+limit 10
+
+--- product with least sales
+
+select p.productCode, p.productName , sum(amount) as total_sales
+from products p
+join 
+orderdetails o on p.productCode=o.productCode
+join
+orders oo on oo.orderNumber=o.orderNumber
+join
+payments pp on pp.customerNumber=oo.customerNumber
+group by 1,2
+order by 3 asc
+limit 10
