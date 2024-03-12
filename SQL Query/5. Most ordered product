@@ -1,0 +1,8 @@
+--- most ordered product
+
+select p.productName,count(*) as total
+from products p 
+join orderdetails o on p.productCode=o.productCode
+group by 1
+order by  2 desc
+limit 1
