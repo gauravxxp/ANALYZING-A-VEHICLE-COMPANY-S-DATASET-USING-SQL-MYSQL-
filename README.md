@@ -32,7 +32,7 @@ Dataset contained in the schema:
 The highest sales are coming from these cities. Business policies in these cities can be maintained as they are yielding positive results. The company is able to identify where their products are being purchased the most.
 ![Capture](https://github.com/gauravxxp/ANALYZING-A-VEHICLE-COMPANY-S-DATASET-USING-SQL-MYSQL-/assets/158818339/6a298cc7-96c1-41f5-acc3-932b9fd3cc88)
 
-## 3. Top five countries.
+## 3. Top ten countries.
 
 Here is the list of the top countries for their products. Priorities can be set during shipment of products to these countries.
 
