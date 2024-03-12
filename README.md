@@ -35,6 +35,7 @@ The highest sales are coming from these cities. Business policies in these citie
 ## 3. Top five countries.
 
 Here is the list of the top countries for their products. Priorities can be set during shipment of products to these countries.
+
 ![Capture3](https://github.com/gauravxxp/ANALYZING-A-VEHICLE-COMPANY-S-DATASET-USING-SQL-MYSQL-/assets/158818339/7ac5afb9-6d21-4251-91d6-5aed62c93142)
 
 ## 4. Products with most sales and least sales.
@@ -50,6 +51,7 @@ This is very useful as production of this product can be increased in order to m
 ## 6. Least ordered product.
 
 Reasons behind this could be the cost of the product, the availability of the product. This is helpful in making better decisions.
+
 ![Capture6](https://github.com/gauravxxp/ANALYZING-A-VEHICLE-COMPANY-S-DATASET-USING-SQL-MYSQL-/assets/158818339/fd40bb61-fbcf-4fc2-b784-6cb167d516a5)
 
 ## 7. Status of orders.
@@ -60,6 +62,7 @@ Orders that have been shipped, awaiting shipment can be easily identified. Reaso
 ## 8. Product line with most sales.
 
 The product line that gives the most sales is easily identified. The company can make use of this information in making better decisions.
+
 ![Capture8](https://github.com/gauravxxp/ANALYZING-A-VEHICLE-COMPANY-S-DATASET-USING-SQL-MYSQL-/assets/158818339/928e5dc8-2a33-4459-80a2-f2a7da65d0e6)
 
 
