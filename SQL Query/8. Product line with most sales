@@ -1,0 +1,12 @@
+--- product line with most sales
+
+select p.productLine, sum(amount) as total_sales
+from products p 
+join
+orderdetails o on p.productCode=o.productCode
+join
+orders oo on oo.orderNumber=o.orderNumber
+join
+payments pp on pp.customerNumber=oo.customerNumber
+group by 1
+order by 2 desc
