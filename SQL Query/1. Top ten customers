@@ -1,0 +1,7 @@
+select c.customerNumber, c.customerName ,sum(p.amount) as total
+from customers c
+join 
+payments p on p.customerNumber=c.customerNumber
+group by 1,2
+order by 3 desc
+limit 10
